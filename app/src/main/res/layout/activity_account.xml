@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".AccountActivity">
+
+    <EditText
+        android:id="@+id/mch_id_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input mch id"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/order_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="input order id"
+        android:textSize="15sp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="input app name"
+        android:textSize="15sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用支付"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <EditText
+        android:id="@+id/mch_id_bind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input mch id"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="input user id"
+        android:textSize="15sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button_bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用绑定"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</LinearLayout>
