@@ -1,7 +1,9 @@
 # XWorld应用的支付与体现绑定
 ## （1）首先在 AndroidManifest.xml 中添加如下：
     <queries>
-        <package android:name="pro.xworld.app" />
+      <intent>
+        <action android:name="android.intent.action.MAIN" />
+      </intent>
     </queries>
 
 ## （2）需要支付时，调用 {@link #startPay(Context, String, String, String)} 方法

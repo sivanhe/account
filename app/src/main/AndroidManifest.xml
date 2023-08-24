@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <queries>
-        <package android:name="pro.xworld.app" />
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
     </queries>
 
     <uses-permission android:name="android.permission.INTERNET" />
